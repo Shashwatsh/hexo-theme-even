@@ -22,6 +22,7 @@
 {{ open_graph() }}
 
 {# Theme styling #}
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="{{ url_for('css/style.css') }}?v={{ theme.version }}" />
 
 {# Fancybox styling #}
